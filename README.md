@@ -32,7 +32,7 @@ Certifique-se de ter os seguintes softwares instalados em seu sistema:
    ```shell
    php artisan key:generate
     
-6. Renomeie o arquivo .env.example para .env e altere-o se for preciso. (geralmente o DB_USERNAME do mysql é: root e DB_PASSWORD vazio)
+6. Configure o arquivo .env e altere-o se for preciso. (geralmente o DB_USERNAME do mysql é: root e DB_PASSWORD vazio)
    ```shell
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
